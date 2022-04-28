@@ -1,0 +1,41 @@
+/* Css Reset- Para acertar as margens brancas de todo site*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* Box -sizing muda a forma como o navegador vê as margens */
+}
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin:0 auto;
+    /* margin zero auto - centralizou o container, trouxe o logo e links para o centro. */
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ /*o height 100% faz a medida ficar atrelada a qualquer alteração do elemento pai (header) */
+}
+
+.menu {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    /* O width mudou o tamanho dos elementos do menu, no exemplo começamos com 650px */
+    
+}
+/* Abaixo, alterações somente nos hiperlinks que chamei pelo a*/
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}

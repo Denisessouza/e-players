@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;0,700;0,900;1,400&display=swap');
 /* Css Reset- Para acertar as margens brancas de todo site*/
 * {
     margin: 0;
@@ -32,10 +33,73 @@ header {
     /* O width mudou o tamanho dos elementos do menu, no exemplo começamos com 650px */
     
 }
-/* Abaixo, alterações somente nos hiperlinks que chamei pelo a*/
+/* Abaixo, alterações somente nos hiperlinks que chamei pelo a (hiperlink) */
 .menu a {
     color: white;
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+.banner {
+    background-image: url(../e-players/img/banner_pilotos.png);
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.posicionamento-banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.conteudo-banner {
+    width: 495px;
+    height: 300px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.conteudo-banner a {
+    color: white;
+    font-family: roboto;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #c31616;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.conteudo-banner h1 {
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 80px;
+}
+.conteudo-banner p {
+    font-family: roboto;
+    font-size: 25px;
+}
+
+.jogos {
+       background-color: black;
+       height: 120px;
+    
+}
+/* Sempre aplicar o Display NO ELEMENTO PAI - CRIAR OUTRA CLASSE*/
+.posicionamento-jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.posicionamento-jogos img {
+    width: 150px;
 }

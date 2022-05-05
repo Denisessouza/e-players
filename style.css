@@ -12,11 +12,11 @@ header {
     height: 80px;
 }
 
-.container-grid {
+/* .container-grid {
     width: 1200px;
-    margin:0 auto;
+    margin:0 auto; */
     /* margin zero auto - centralizou o container, trouxe o logo e links para o centro. */
-}
+
 
 .cabecalho {
     display: flex;
@@ -103,3 +103,23 @@ header {
 .posicionamento-jogos img {
     width: 150px;
 }
+
+/* Aplicando Responsividade
+
+/* @media screen and (max-width:1200px) {
+    /* .container-grid{
+        width:80%;
+    } */
+    
+ /*
+@media screen and (max-width:768px) {
+    .header {
+        background-color: rgb(18, 73, 73);
+    }
+    .logo {
+        width: 120px;
+   }
+    .posicionamento-jogos {
+        width: 80px;
+    }
+}   

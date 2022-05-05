@@ -16,4 +16,5 @@ Revisão do Conteúdo - Construção da página E- Players
 
 *Etapa 3 - Aplicando Responsividade - Video Referencia de 25/02/2022*
 
+*Etapa 4 - Responsividade: Introdução ao básico de Bootstrap 
 

@@ -87,11 +87,11 @@ header {
 }
 
 .jogos {
-       background-color: black;
+       background-color:black;
        height: 120px;
     
 }
-/* Sempre aplicar o Display NO ELEMENTO PAI - CRIAR OUTRA CLASSE*/
+
 .posicionamento-jogos {
     display: flex;
     justify-content: space-between;
@@ -104,14 +104,14 @@ header {
     width: 150px;
 }
 
-/* Aplicando Responsividade
 
-/* @media screen and (max-width:1200px) {
-    /* .container-grid{
+
+ @media screen and (max-width:1200px) { 
+    .container-grid {
         width:80%;
-    } */
-    
- /*
+    } 
+}
+ 
 @media screen and (max-width:768px) {
     .header {
         background-color: rgb(18, 73, 73);

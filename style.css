@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-/* Box -sizing muda a forma como o navegador vê as margens */
+
 }
 
 header {
@@ -12,28 +12,26 @@ header {
     height: 80px;
 }
 
-/* .container-grid {
-    width: 1200px;
-    margin:0 auto; */
-    /* margin zero auto - centralizou o container, trouxe o logo e links para o centro. */
-
+.container-grid {
+   max-width: 1200px;
+   margin: 0 auto;
+}
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
- /*o height 100% faz a medida ficar atrelada a qualquer alteração do elemento pai (header) */
+
 }
 
 .menu {
     width: 650px;
     display: flex;
     justify-content: space-between;
-    /* O width mudou o tamanho dos elementos do menu, no exemplo começamos com 650px */
-    
+        
 }
-/* Abaixo, alterações somente nos hiperlinks que chamei pelo a (hiperlink) */
+
 .menu a {
     color: white;
     text-decoration: none;
@@ -56,15 +54,17 @@ header {
 }
 .conteudo-banner {
     width: 495px;
-    height: 300px;
-    color:white;
+    height: 300px;     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
-    
+    color:white;
+
 }
+   
+     
+
 .conteudo-banner a {
     color: white;
     font-family: roboto;
@@ -96,30 +96,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     height: 100%;
 
 }
 
 .posicionamento-jogos img {
     width: 150px;
+   
 }
 
-
-
- @media screen and (max-width:1200px) { 
+@media screen and (max-width: 1200px) {
+    .banner {
+        background-image:url(../e-players/img/banner_lol.png) ;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
     .container-grid {
-        width:80%;
-    } 
+        width: 90vw;
+    }
+
 }
- 
-@media screen and (max-width:768px) {
-    .header {
-        background-color: rgb(18, 73, 73);
+@media screen and (max-width: 768px) {
+    header {
+        background-color: blue;
     }
     .logo {
-        width: 120px;
-   }
-    .posicionamento-jogos {
-        width: 80px;
+        width: 100px;
     }
-}   
+}
+
+@media screen and (max-width:500px) {
+
+}

@@ -39,8 +39,11 @@ header {
     text-transform: uppercase;
 }
 
+.menu-hamburguer {
+    height: 40px;
+}
 .banner {
-    background-image: url(../e-players/img/banner_pilotos.png);
+    background-image: url(..//img/banner_pilotos.png);
     height: 610px;
     background-repeat: no-repeat;
     background-position: center;

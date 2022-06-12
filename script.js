@@ -1,1 +1,0 @@
-alert ("O JS externo está funcionando")

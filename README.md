@@ -18,3 +18,6 @@ Revisão do Conteúdo - Construção da página E- Players
 
 *Etapa 4 - Responsividade: Introdução ao básico de Bootstrap*
 
+*Etapa 5 - Menu Hamburguer em JavaScript - manipulação de elementos by ID. 
+Necessário rever essa parte, menu ainda sem perfeito funcionamento. 
+

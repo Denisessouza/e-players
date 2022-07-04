@@ -1,3 +1,15 @@
 function mostrarMenu() {
-    alert ("Olá, você clicou no ícone")
+    let menu = document.getElementById("menu")
+
+    if(getComputedStyle(menu).display == "none") {
+    menu.style.display = 'flex';
 }
+    else {
+
+        menu.style = 'none';
+    }
+
+}
+
+
+
